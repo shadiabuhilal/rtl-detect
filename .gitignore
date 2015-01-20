@@ -29,3 +29,9 @@ node_modules
 
 # artifacts
 artifacts
+
+# webstorm files
+.idea
+
+# MAC OS files
+.DS_Store

@@ -1,0 +1,46 @@
+{
+  "name": "intl-lang",
+  "version": "1.0.0",
+  "description": "Library will help you to detect if the intl is right-to-left language.",
+  "main": "index.js",
+  "scripts": {
+    "jshint": "grunt jshint",
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shadiabuhilal/intl-lang.git"
+  },
+  "keywords": [
+    "intl-lang",
+    "intl dir",
+    "intl direction",
+    "right-to-left",
+    "left-to-right",
+    "rtl",
+    "ltr"
+  ],
+  "author": "Shadi Abu Hilal <shadiabuhilal@gmail.com> (http://github.com/shadiabuhilal)",
+  "license": "MIT",
+  "homepage": "https://github.com/shadiabuhilal/intl-lang",
+  "bugs": {
+    "url": "https://github.com/shadiabuhilal/intl-lang/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shadiabuhilal/intl-lang/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "istanbul": "^0.3.5",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.1.0"
+  }
+}
