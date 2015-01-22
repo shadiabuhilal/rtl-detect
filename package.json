@@ -1,7 +1,7 @@
 {
-  "name": "intl-lang",
+  "name": "rtl-detect",
   "version": "1.0.0",
-  "description": "Library will help you to detect if the intl is right-to-left language.",
+  "description": "Library will help you to detect if the locale is right-to-left language.",
   "main": "index.js",
   "scripts": {
     "jshint": "grunt jshint",
@@ -9,27 +9,33 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shadiabuhilal/intl-lang.git"
+    "url": "https://github.com/shadiabuhilal/rtl-detect.git"
   },
   "keywords": [
-    "intl-lang",
-    "intl dir",
+    "rtl-detect",
+    "rtl-detect",
+    "locale direction",
+    "locale dir",
+    "locale",
     "intl direction",
+    "intl dir",
+    "intl",
     "right-to-left",
     "left-to-right",
     "rtl",
-    "ltr"
+    "ltr",
+    "intl-lang"
   ],
   "author": "Shadi Abu Hilal <shadiabuhilal@gmail.com> (http://github.com/shadiabuhilal)",
   "license": "MIT",
-  "homepage": "https://github.com/shadiabuhilal/intl-lang",
+  "homepage": "https://github.com/shadiabuhilal/rtl-detect",
   "bugs": {
-    "url": "https://github.com/shadiabuhilal/intl-lang/issues"
+    "url": "https://github.com/shadiabuhilal/rtl-detect/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/shadiabuhilal/intl-lang/blob/master/LICENSE"
+      "url": "https://github.com/shadiabuhilal/rtl-detect/blob/master/LICENSE"
     }
   ],
   "dependencies": {},

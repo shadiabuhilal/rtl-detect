@@ -1,21 +1,11 @@
 'use strict';
 
-var intlLang = require('./lib/intl-lang');
+var rtlDetect = require('./lib/rtl-detect');
 
 module.exports = {
 
-    getLang: intlLang.getLang,
+    isRtlLang: rtlDetect.isRtlLang,
 
-    getCountryCode: intlLang.getCountryCode,
-
-    isRtlLang: intlLang.isRtlLang,
-
-    getLangDir: intlLang.getLangDir,
-
-    getIntl: intlLang.getIntl,
-
-    getAcceptLangIntls: intlLang.getAcceptLangIntls,
-
-    getAcceptLangIntl: intlLang.getAcceptLangIntl
+    getLangDir: rtlDetect.getLangDir,
 
 };
