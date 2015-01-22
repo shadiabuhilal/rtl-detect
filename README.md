@@ -1,5 +1,5 @@
 # rtl-detect
-This library will help you to detect if the intl is right-to-left language or not.
+This library will help you to detect if the locale is right-to-left language or not.
 
 ## Usage
 
