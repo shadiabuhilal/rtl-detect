@@ -34,7 +34,7 @@ var isRtl = rtlDetect.isRtlLang('en-US');
 ```
 
 ### getLangDir
-This function will get language direction for the intl.
+This function will get language direction for the locale.
 
 Examples:
 
