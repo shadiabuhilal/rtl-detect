@@ -1,3 +1,4 @@
+//Copyright 2015, Yahoo! Inc.
 'use strict';
 
 var RtlDetect = require('../../' + 'lib/rtl-detect');
