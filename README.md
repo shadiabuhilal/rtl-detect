@@ -61,3 +61,5 @@ var langDir = rtlDetect.getLangDir('ar');
 var langDir = rtlDetect.getLangDir('en-US');
 // langDir will be 'ltr'
 ```
+
+Copyright 2015, Yahoo! Inc.
