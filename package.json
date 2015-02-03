@@ -27,15 +27,15 @@
     "intl-lang"
   ],
   "author": "Shadi Abu Hilal <shadiabuhilal@gmail.com> (http://github.com/shadiabuhilal)",
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "homepage": "https://github.com/shadiabuhilal/rtl-detect",
   "bugs": {
     "url": "https://github.com/shadiabuhilal/rtl-detect/issues"
   },
   "licenses": [
     {
-      "type": "MIT",
-      "url": "https://github.com/shadiabuhilal/rtl-detect/blob/master/LICENSE"
+      "type": "BSD-3-Clause",
+      "url": "https://github.com/shadiabuhilal/rtl-detect/blob/master/LICENSE.md"
     }
   ],
   "dependencies": {},
