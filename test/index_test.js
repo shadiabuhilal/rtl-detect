@@ -2,16 +2,18 @@
  * Copyright 2015, Yahoo! Inc.
  * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
  */
+/* global describe, it */
 'use strict';
 
 var RtlDetect = require('../' + 'index');
 
 var assert = require('chai').assert;
 
-describe('index', function() {
+describe('index', function () {
 
     it('isRtlLang()', function () {
-        var strIn, out;
+        var out;
+        var strIn;
 
         out = RtlDetect.isRtlLang(strIn);
         assert.isUndefined(out);
@@ -30,7 +32,7 @@ describe('index', function() {
 
         strIn = '1234';
         out = RtlDetect.isRtlLang(strIn);
-        assert.isUndefined(out)
+        assert.isUndefined(out);
 
         strIn = 'en';
         out = RtlDetect.isRtlLang(strIn);
@@ -75,7 +77,8 @@ describe('index', function() {
     });
 
     it('getLangDir()', function () {
-        var strIn, out;
+        var out;
+        var strIn;
 
         out = RtlDetect.getLangDir(strIn);
         assert.strictEqual(out, 'ltr');

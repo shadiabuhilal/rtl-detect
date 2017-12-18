@@ -10,6 +10,6 @@ module.exports = {
 
     isRtlLang: rtlDetect.isRtlLang,
 
-    getLangDir: rtlDetect.getLangDir,
+    getLangDir: rtlDetect.getLangDir
 
 };
