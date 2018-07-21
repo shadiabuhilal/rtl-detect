@@ -74,6 +74,18 @@ describe('rtl-detect', function() {
             out = RtlDetect.isRtlLang(strIn);
             assert.strictEqual(out, true);
 
+            strIn = 'af';
+            out = RtlDetect.isRtlLang(strIn);
+            assert.strictEqual(out, true);
+
+            strIn = 'AF';
+            out = RtlDetect.isRtlLang(strIn);
+            assert.strictEqual(out, true);
+
+            strIn = 'af_za';
+            out = RtlDetect.isRtlLang(strIn);
+            assert.strictEqual(out, true);
+
         });
 
         it('getLangDir()', function () {
@@ -135,6 +147,14 @@ describe('rtl-detect', function() {
             assert.strictEqual(out, 'rtl');
 
             strIn = 'ar_JO';
+            out = RtlDetect.getLangDir(strIn);
+            assert.strictEqual(out, 'rtl');
+
+            strIn = 'af';
+            out = RtlDetect.getLangDir(strIn);
+            assert.strictEqual(out, 'rtl');
+
+            strIn = 'af-za';
             out = RtlDetect.getLangDir(strIn);
             assert.strictEqual(out, 'rtl');
         });
