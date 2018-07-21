@@ -66,7 +66,11 @@ describe('rtl-detect', function() {
             out = RtlDetect.isRtlLang(strIn);
             assert.strictEqual(out, true);
 
-            strIn = 'ar-jo';
+            strIn = 'ar-JO';
+            out = RtlDetect.isRtlLang(strIn);
+            assert.strictEqual(out, true);
+
+            strIn = 'ar-JO';
             out = RtlDetect.isRtlLang(strIn);
             assert.strictEqual(out, true);
 
