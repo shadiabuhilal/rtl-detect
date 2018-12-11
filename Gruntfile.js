@@ -19,7 +19,7 @@ module.exports = function (grunt) {
                 'tasks/*.js',
                 'lib/*.js',
                 'index.js',
-                'test/*.js'
+                'test/**/*.js'
             ]
         },
 

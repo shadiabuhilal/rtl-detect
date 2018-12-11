@@ -37,3 +37,6 @@ artifacts
 
 # MAC OS files
 .DS_Store
+
+# Others
+package-lock.json

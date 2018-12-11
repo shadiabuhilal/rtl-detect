@@ -58,5 +58,5 @@ module.exports = function (grunt) {
         child.on('exit', end);
     });
 
-    grunt.registerTask('test', 'Run jshint and unit tests and show code coverage', ['clean', 'eslint', 'tests']);
+    grunt.registerTask('test', 'Run eslint and unit tests and show code coverage', ['clean', 'eslint', 'tests']);
 };

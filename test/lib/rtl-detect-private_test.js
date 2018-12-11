@@ -8,12 +8,12 @@ var RtlDetect = require('../../' + 'lib/rtl-detect');
 
 var assert = require('chai').assert;
 
-describe('rtl-detect', function() {
+describe('rtl-detect', function () {
 
-    describe('private', function() {
+    describe('private', function () {
 
         it('_escapeRegExpPattern()', function () {
-            var strIn, out;
+            var out; var strIn;
 
             out = RtlDetect._escapeRegExpPattern(strIn);
             assert.isUndefined(out);
@@ -41,7 +41,7 @@ describe('rtl-detect', function() {
         });
 
         it('_toLowerCase()', function () {
-            var strIn, out;
+            var out; var strIn;
 
             out = RtlDetect._toLowerCase(strIn);
             assert.isUndefined(out);
@@ -76,7 +76,7 @@ describe('rtl-detect', function() {
         });
 
         it('_toUpperCase()', function () {
-            var strIn, out;
+            var out; var strIn;
 
             out = RtlDetect._toUpperCase(strIn);
             assert.isUndefined(out);
@@ -113,7 +113,7 @@ describe('rtl-detect', function() {
         });
 
         it('_trim()', function () {
-            var strIn, out;
+            var out; var strIn;
 
             out = RtlDetect._trim(strIn);
             assert.isUndefined(out);
@@ -170,7 +170,7 @@ describe('rtl-detect', function() {
         });
 
         it('_parseLocale()', function () {
-            var strIn, out;
+            var out; var strIn;
 
             out = RtlDetect._parseLocale(strIn);
             assert.isUndefined(out);

@@ -8,12 +8,12 @@ var RtlDetect = require('../../' + 'lib/rtl-detect');
 
 var assert = require('chai').assert;
 
-describe('rtl-detect', function() {
+describe('rtl-detect', function () {
 
-    describe('public', function() {
+    describe('public', function () {
 
         it('isRtlLang()', function () {
-            var strIn, out;
+            var out; var strIn;
 
             out = RtlDetect.isRtlLang(strIn);
             assert.isUndefined(out);
@@ -32,7 +32,7 @@ describe('rtl-detect', function() {
 
             strIn = '1234';
             out = RtlDetect.isRtlLang(strIn);
-            assert.isUndefined(out)
+            assert.isUndefined(out);
 
             strIn = 'en';
             out = RtlDetect.isRtlLang(strIn);
@@ -77,7 +77,7 @@ describe('rtl-detect', function() {
         });
 
         it('getLangDir()', function () {
-            var strIn, out;
+            var out; var strIn;
 
             out = RtlDetect.getLangDir(strIn);
             assert.strictEqual(out, 'ltr');
