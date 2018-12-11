@@ -30,7 +30,7 @@ describe('index', function() {
 
         strIn = '1234';
         out = RtlDetect.isRtlLang(strIn);
-        assert.isUndefined(out)
+        assert.isUndefined(out);
 
         strIn = 'en';
         out = RtlDetect.isRtlLang(strIn);

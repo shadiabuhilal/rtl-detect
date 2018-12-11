@@ -1,0 +1,61 @@
+{
+  "env": {
+    "node": true
+  },
+  "overrides": {
+    "files": ["test/**"],
+    "env": {
+      "mocha": true
+    }
+  },
+  "rules": {
+    "strict": 2,
+    "no-empty": 2,
+    "semi": [
+      2,
+      "always"
+    ],
+    "curly": 2,
+    "eqeqeq": 2,
+    "wrap-iife": [
+      2,
+      "any"
+    ],
+    "no-use-before-define": [
+      2,
+      {
+        "functions": false
+      }
+    ],
+    "new-cap": 2,
+    "no-caller": 2,
+    "dot-notation": 0,
+    "no-undef": 2,
+    "no-cond-assign": [
+      2,
+      "except-parens"
+    ],
+    "camelcase": 2,
+    "no-new": 2,
+    "quotes": [
+      2,
+      "single"
+    ],
+    "no-unused-vars": 2,
+    "max-params": [
+      2,
+      5
+    ],
+    "complexity": [
+      2,
+      8
+    ],
+    "indent": [
+      2,
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ]
+  }
+}

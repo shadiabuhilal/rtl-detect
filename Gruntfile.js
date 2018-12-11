@@ -9,8 +9,8 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
 
-        jshint: {
-            src: [
+        eslint: {
+            target: [
                 'Gruntfile.js',
                 'tasks/*.js',
                 'lib/*.js',
@@ -18,8 +18,7 @@ module.exports = function(grunt) {
                 'test/*.js'
             ],
             options: {
-                reporter: require('jshint-stylish'),
-                jshintrc: '.jshintrc'
+                configFile: '.eslintrc.json'
             }
         },
 
@@ -33,6 +32,6 @@ module.exports = function(grunt) {
     grunt.loadTasks('./tasks');
 
     grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-eslint');
 
 };
