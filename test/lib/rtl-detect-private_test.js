@@ -234,7 +234,7 @@ describe('rtl-detect', function() {
 
         it('_BIDI_RTL_LANGS', function () {
             assert.isArray(RtlDetect._BIDI_RTL_LANGS);
-            assert.lengthOf(RtlDetect._BIDI_RTL_LANGS, 19);
+            assert.lengthOf(RtlDetect._BIDI_RTL_LANGS, 20);
             assert.include(RtlDetect._BIDI_RTL_LANGS, 'ae');
             assert.include(RtlDetect._BIDI_RTL_LANGS, 'ar');
             assert.include(RtlDetect._BIDI_RTL_LANGS, 'arc');
@@ -245,6 +245,7 @@ describe('rtl-detect', function() {
             assert.include(RtlDetect._BIDI_RTL_LANGS, 'fa');
             assert.include(RtlDetect._BIDI_RTL_LANGS, 'glk');
             assert.include(RtlDetect._BIDI_RTL_LANGS, 'he');
+            assert.include(RtlDetect._BIDI_RTL_LANGS, 'iw');
             assert.include(RtlDetect._BIDI_RTL_LANGS, 'ku');
             assert.include(RtlDetect._BIDI_RTL_LANGS, 'mzn');
             assert.include(RtlDetect._BIDI_RTL_LANGS, 'nqo');
