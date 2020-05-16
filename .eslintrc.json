@@ -6,12 +6,17 @@
     "plugins": [
         "require-jsdoc"
     ],
-    "overrides": {
-      "files": ["test/**"],
-      "env": {
-        "mocha": true
-      }
-    },
+    "overrides": [
+        {
+            "files": "test/**",
+            "env": {
+                "mocha": true
+            },
+            "globals": {
+                "assert": true
+            }
+        }
+    ],
     "rules": {
         "require-jsdoc": 2,
         "valid-jsdoc": 2,

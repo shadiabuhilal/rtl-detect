@@ -6,8 +6,6 @@
 
 var RtlDetect = require('../' + 'index');
 
-var assert = require('chai').assert;
-
 describe('index', function () {
 
     it('isRtlLang()', function () {

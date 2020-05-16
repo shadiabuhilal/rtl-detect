@@ -6,8 +6,6 @@
 
 var RtlDetect = require('../../' + 'lib/rtl-detect');
 
-var assert = require('chai').assert;
-
 describe('rtl-detect', function () {
 
     describe('public', function () {
