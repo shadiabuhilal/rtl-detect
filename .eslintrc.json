@@ -1,14 +1,10 @@
 {
     "env": {
+        "browser": true,
         "node": true
     },
     "extends": "eslint:recommended",
-    "plugins": [
-        "require-jsdoc"
-    ],
     "rules": {
-        "require-jsdoc": 2,
-        "valid-jsdoc": 2,
         "camelcase": "off",
         "consistent-return": "off",
         "vars-on-top": "off",

@@ -1,0 +1,13 @@
+.editorconfig
+.DS_Store
+.gitignore
+.travis.yml
+/node_modules/
+/artifacts/
+/bin/
+/build/
+/coverage/
+lcov-*
+xunit*
+/test/
+/__tests__/

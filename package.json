@@ -1,11 +1,15 @@
 {
   "name": "rtl-detect",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Library will help you to detect if the locale is right-to-left language.",
   "main": "index.js",
   "scripts": {
-    "lint": "grunt eslint",
-    "test": "grunt test"
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "verbose": true
   },
   "repository": {
     "type": "git",
@@ -38,15 +42,8 @@
       "url": "https://github.com/shadiabuhilal/rtl-detect/blob/master/LICENSE.md"
     }
   ],
-  "dependencies": {},
   "devDependencies": {
-    "chai": "^4.1.2",
-    "eslint-plugin-require-jsdoc": "^1.0.4",
-    "grunt": "^1.0.1",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-clean": "^1.1.0",
-    "grunt-eslint": "^20.1.0",
-    "istanbul": "^0.4.5",
-    "mocha": "^4.0.1"
+    "eslint": "^7.26.0",
+    "jest": "^26.6.3"
   }
 }
