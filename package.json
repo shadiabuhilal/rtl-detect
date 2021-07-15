@@ -1,6 +1,6 @@
 {
   "name": "rtl-detect",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Library will help you to detect if the locale is right-to-left language.",
   "main": "index.js",
   "scripts": {

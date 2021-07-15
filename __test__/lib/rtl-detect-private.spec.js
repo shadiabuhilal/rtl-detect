@@ -138,6 +138,7 @@ describe('rtl-detect', function () {
                 'dv',
                 'fa',
                 'glk',
+                'he',
                 'ku',
                 'mzn',
                 'nqo',
@@ -145,7 +146,8 @@ describe('rtl-detect', function () {
                 'ps',
                 'sd',
                 'ug',
-                'ur'
+                'ur',
+                'yi'
             ]);
         });
 
