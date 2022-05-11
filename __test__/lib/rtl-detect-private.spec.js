@@ -143,6 +143,7 @@ describe('rtl-detect', function () {
                 'mzn',
                 'nqo',
                 'pnb',
+                'prs',
                 'ps',
                 'sd',
                 'ug',
