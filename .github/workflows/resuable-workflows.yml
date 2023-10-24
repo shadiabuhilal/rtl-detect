@@ -6,9 +6,9 @@ on:
       node-version:
         required: true
         type: string
-    secrets:
-      token:
-        required: true
+    #secrets:
+      #token:
+        #required: true
 
 jobs:
   build:
