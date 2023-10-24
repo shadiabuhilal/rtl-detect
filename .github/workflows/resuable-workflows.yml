@@ -3,9 +3,12 @@ name: Reusable workflow
 on:
   workflow_call:
     inputs:
+      environment:
+        required: true
+        type: string
       node-version:
         required: true
-        type: array
+        type: string
     secrets:
       token:
         required: true
@@ -14,11 +17,12 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    environment: ${{ inputs.environment }}
+    
     strategy:
       fail-fast: false
       matrix:
-        node-version: ${{ inputs.node-version }}
+        node-version: ${{ fromJson(inputs.node-version) }}
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:

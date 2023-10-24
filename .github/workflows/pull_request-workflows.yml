@@ -9,9 +9,9 @@ on:
 
 jobs:  
   call-resuable-workflows:
-    environment: development
     uses: ./.github/workflows/resuable-workflows.yml
     with:
-      node-version: [16.x, 18.x, 20.x]
+      environment: development
+      node-version: '["16.x", "18.x", "20.x"]'
     # secrets:
     #  envPAT: ${{ secrets.envPAT }}
