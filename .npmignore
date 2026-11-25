@@ -11,3 +11,4 @@ lcov-*
 xunit*
 /test/
 /__tests__/
+
